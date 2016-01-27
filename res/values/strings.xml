@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GraduationProject</string>
+    <string name="app_name2">小型停车场管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="Sys_Yes">确定</string>
+	<string name="Sys_Cancel">退出</string>
+	<string name="Sys_Warning">提示</string>
+	<string name="sys_next">下一步</string>
+	<string name="sys_last">上一步</string>
+    <!-- 菜单 -->
+    <string name="menu_lock">放车</string>
+    <string name="menu_unlock">拿车</string>
+    <!-- 设置 -->
+    <string name="set_time">设置时间</string>
+    <string name="set_time_remind">此功能需要root</string>
+</resources>
