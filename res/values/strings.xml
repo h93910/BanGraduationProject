@@ -10,10 +10,33 @@
 	<string name="Sys_Warning">提示</string>
 	<string name="sys_next">下一步</string>
 	<string name="sys_last">上一步</string>
+	<string name="sys_info_adding">添加信息中&#8230;</string>
+	<string name="sys_info_adding_fail">信息添加失败</string>
+	<string name="sys_info_adding_suc">信息添加成功</string>
     <!-- 菜单 -->
     <string name="menu_lock">放车</string>
     <string name="menu_unlock">拿车</string>
+    <string name="menu_recharge">充值</string>
     <!-- 设置 -->
     <string name="set_time">设置时间</string>
     <string name="set_time_remind">此功能需要root</string>
+    <!-- 主页 -->
+    <string name="main_recording">停放车记录</string>
+	<string name="main_recording_input_hint">输入车主编号或姓名</string>
+    <string name="main_recharge">充值记录</string>
+    <string name="main_personal">车主信息</string>
+    <string name="main_car">车辆信息</string>
+    <string name="main_personal_add">添加车主信息</string>
+    <string name="main_personal_head1">编号</string>
+    <string name="main_personal_head2">姓名</string>
+    <string name="main_personal_head3">到期时间</string>
+    <string name="main_personal_car_number">车牌号</string>
+    <string name="main_personal_tel">电话</string>
+    <string name="main_personal_deadline">到期时间</string>
+    <string name="main_personal_sex">性别</string>
+    <string name="main_personal_sex_male">男</string>
+    <string name="main_personal_sex_female">女</string>
+    <string name="main_personal_car_type_ele_bicycle">电动车</string>
+    <string name="main_personal_car_type_moto">摩托车</string>
+    <string name="main_personal_car_type_">汽车</string>
 </resources>

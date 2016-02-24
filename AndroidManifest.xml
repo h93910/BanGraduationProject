@@ -18,6 +18,10 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <!-- 闪光灯 -->
     <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- 读SD -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 写SD -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.ban.graduationproject.commbase.MyApplication"
@@ -35,7 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name="com.zxing.activity.CaptureActivity" />
         <activity android:name=".SetAcitivity" />
     </application>
